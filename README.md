@@ -10,7 +10,9 @@ On top of rules listed there we have few extra rules and exceptions:
 
 Follow Field Naming Conventions
 - Do NOT use m or s prefix in fields inside POJO (models, events)
+
 *good:* 
+
     public class LoginEvent {
         private boolean success;
         
@@ -24,6 +26,7 @@ Follow Field Naming Conventions
     }
 
 *bad:*
+
     public class LoginEvent {
       private boolean mSuccess;
       
