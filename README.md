@@ -1,0 +1,2 @@
+**Android Coding Guidelines**
+
