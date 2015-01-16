@@ -3,6 +3,9 @@
 Android Coding Guidelines
 =========================
 
+Coding Style
+------------
+
 At TAB we follow Android Code Style guidelines
 
 https://source.android.com/source/code-style.html#follow-field-naming-conventions
