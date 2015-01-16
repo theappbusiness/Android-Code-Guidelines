@@ -1,3 +1,5 @@
+****This document is under construction****
+
 **Android Coding Guidelines**
 
 At TAB we follow Android Code Style guidelines
