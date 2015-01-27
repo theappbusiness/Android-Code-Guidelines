@@ -119,3 +119,33 @@ Implement or use Logger which allows filtering log calls per subsystem
 *not so good:*
 
     Log.e("Cannot determine image size");
+
+###Imports
+
+Use static imports for constants but also remember to make constants very explicit
+
+*good:*
+
+    import static com.theappbusiness.kcapp.io.SchedulerConstants.START_ENDPOINT_REFRESH_DELAY;
+
+    ...
+
+    public void scheduleStartEndpointRefresh() {
+
+        SchedulerFactory.scheduleStartEndpointRefresh(START_ENDPOINT_REFRESH_DELAY);
+
+    }
+
+*bad:*
+
+    import com.theappbusiness.kcapp.io.SchedulerConstants;
+
+    ...
+
+    public void scheduleStartEndpointRefresh() {
+
+        SchedulerFactory.scheduleStartEndpointRefresh(SchedulerConstants.START_ENDPOINT_REFRESH_DELAY);
+
+    }
+
+
