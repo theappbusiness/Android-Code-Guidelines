@@ -3,6 +3,13 @@
 Android Coding Guidelines
 =========================
 
+Workflow
+--------
+
+We follow gitflow. To avoid confusion in branches we name them after author and story from jira e.g.
+
+> james/SG-1012-image-in-article-is-cut-off
+
 Coding Style
 ------------
 
