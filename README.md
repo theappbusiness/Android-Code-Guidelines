@@ -1,6 +1,6 @@
 ***This document is under construction***
 
-# Android Coding Guidelines Android
+# Android Coding Guidelines 
 
 ## 1. Project structure
 
