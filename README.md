@@ -58,9 +58,9 @@ Navigator interface defines all navigational operations that can be performed on
 
     public interface HomeSearchNavigator {
         void onFixedSearch(String search);
-	void onRawSearch(String search);
-	void onOpenSettings();
-	void onExit();
+        void onRawSearch(String search);
+        void onOpenSettings();
+        void onExit();
     }
 
 Implementation will handle creation of intents and dispatching them.
